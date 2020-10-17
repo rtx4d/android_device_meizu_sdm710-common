@@ -120,6 +120,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
     persist.ct_volte_support=1 \
     persist.radio.fourgOff=1 \
     persist.radio.multisim.config=dsds \
