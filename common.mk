@@ -6,14 +6,6 @@
 
 $(call inherit-product, vendor/meizu/sdm710-common/sdm710-common-vendor.mk)
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-device
-PRODUCT_PACKAGE_OVERLAYS +=  $(LOCAL_PATH)/overlay-product
-
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-sdm710
-
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
-
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
