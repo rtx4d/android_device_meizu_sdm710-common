@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, vendor/meizu/sdm710-common/sdm710-common-vendor.mk)
-
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
